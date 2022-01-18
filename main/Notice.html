@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="title" content="sibizi - prototype"/>
+    <meta name="subject" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>sibizi - prototype2</title>
+
+    <link rel="stylesheet" href="../css/import.css">
+
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/TweenMax.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- [s] wrapper -->
+<div id="wrapper">
+
+    <div id="skipToContent" class="skipnav">
+        <a href="#container">본문 바로가기</a>
+    </div>
+
+    <header id="header">
+        <h1 class="logo"><a href="../main/index.html"><img src="../img/logo.png" alt="SOCOMO"></a></h1>
+        <nav id="gnb">
+            <ul class="gnb_depth1 infit">
+                <li>
+                    <a href="#none">Socomo</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Company</a></li>
+                        <li><a href="#none">Vison</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">Product</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Chair & Sofa</a></li>
+                        <li><a href="#none">Table</a></li>
+                        <li><a href="#none">Bed</a></li>
+                        <li><a href="#none">Light</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">Work</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Portfolio</a></li>
+                        <li><a href="#none">Partners</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">News</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">News</a></li>
+                        <li><a href="#none">Notice</a></li>
+                        <li><a href="#none">Gallery</a></li>
+                        <li><a href="#none">Q&A</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">Contact</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Contact Us</a></li>
+                        <li><a href="#none">Location</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="gnb_bg"></div>
+        </nav>
+
+        <div class="header_link infit">
+            <a href="#none" class="link_mypage"><img src="../img/ico_mypage.png" alt="마이페이지 바로가기"></a>
+            <a href="#none" class="link_sch"><img src="../img/ico_head_sch_btn.png" alt="검색아이콘"></a>
+        </div>
+
+        <a href="javascript:void(0)" class="header_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+
+        <div class="head_sch_wp">
+            <button type="button" class="sch_clo"><img src="../img/ico_close.png" alt="검색창 닫기버튼"></button>
+            <div class="hd_sch">
+                <input type="text" class="hd_sch_ip" placeholder="Enter your keywords...">
+                <button type="button" class="hd_sch_btn"><img src="../img/ico_head_sch_btn2.png" alt="검색버튼"></button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- [s] 컨텐츠 container -->
+    <div id="container">
+        <!-- [s] News -->
+        <div class="news">
+            <div class="inner">
+                <div class="news_header">
+                    <h1 class="news_title">News</h1>
+                </div>
+                <div class="upper">
+                    <div class="tab_title">
+                        <ul class="news_tabs">
+                            <li><a href="#">News</a></li>
+                            <li><a href="#" class="active">Notice</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <i>
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="8" cy="8" r="7" stroke="#333333" stroke-width="2"/>
+                                <rect x="13.4141" y="12" width="8" height="2" rx="1" transform="rotate(45 13.4141 12)"
+                                      fill="#333333"/>
+                            </svg>
+                        </i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div class="total">
+                    <p>Total 82</p>
+                    <hr>
+                </div>
+                <div class="notice_content">
+                    <div class="notice_box">
+                        <a href="#"><h2>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</h2></a>
+                        <div class="notice_date">
+                            <span><img src="../img/ico_user.png" alt="">admin</span>
+                            <span><img src="../img/ico_clock.png" alt="">2021.12.01</span>
+                            <span><img src="../img/ico_eye.png" alt="">1,234</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="notice_content">
+                    <div class="notice_box">
+                        <a href="#"><h2>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</h2></a>
+                        <div class="notice_date">
+                            <span><img src="../img/ico_user.png" alt="">admin</span>
+                            <span><img src="../img/ico_clock.png" alt="">2021.12.01</span>
+                            <span><img src="../img/ico_eye.png" alt="">1,234</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="notice_content">
+                    <div class="notice_box">
+                        <a href="#"><h2>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</h2></a>
+                        <div class="notice_date">
+                            <span><img src="../img/ico_user.png" alt="">admin</span>
+                            <span><img src="../img/ico_clock.png" alt="">2021.12.01</span>
+                            <span><img src="../img/ico_eye.png" alt="">1,234</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="notice_content">
+                    <div class="notice_box">
+                        <a href="#"><h2>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</h2></a>
+                        <div class="notice_date">
+                            <span><img src="../img/ico_user.png" alt="">admin</span>
+                            <span><img src="../img/ico_clock.png" alt="">2021.12.01</span>
+                            <span><img src="../img/ico_eye.png" alt="">1,234</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="notice_content">
+                    <div class="notice_box">
+                        <a href="#"><h2>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</h2></a>
+                        <div class="notice_date">
+                            <span><img src="../img/ico_user.png" alt="">admin</span>
+                            <span><img src="../img/ico_clock.png" alt="">2021.12.01</span>
+                            <span><img src="../img/ico_eye.png" alt="">1,234</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center">
+                    <ul class="paginating">
+                        <li class="page-number"><a href="#"><</a></li>
+                        <li class="page-number active"><a href="#">1</a></li>
+                        <li class="page-number"><a href="#">2</a></li>
+                        <li class="page-number"><a href="#">3</a></li>
+                        <li class="page-number"><a href="#">4</a></li>
+                        <li class="page-number"><a href="#">5</a></li>
+                        <li class="page-number"><a href="#">></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- [e] News -->
+    </div>
+    <!-- [e] 컨텐츠 container -->
+
+    <!-- [s] footer  -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="foot_lft">
+                <div class="foot_cp">
+                    <h2 class="tit">Company</h2>
+                    <p class="txt">
+                        (주)소코모<br>
+                        대표이사 : 소코모 <a href="#none">사업자정보확인</a><br>
+                        서울특별시 강남구 봉은사로 207, 7층 (논현동)<br>
+                        사업자등록번호 : 105-87-47183<br>
+                        통신판매업신고번호 : 제2014-서울강남-00395호
+                    </p>
+                </div>
+                <div class="foot_cs">
+                    <h2 class="tit">Customer</h2>
+                    <p class="foot_tel">1544-9899</p>
+                    <p class="foot_time"><img src="../img/ico_time.png" alt="시계 아이콘">AM 09:30 - PM 18:30</p>
+                    <p class="foot_fax">Fax : 02-6499-1221</p>
+                    <p class="foot_email">E-mail : service@sibizi.com</p>
+                </div>
+            </div>
+            <div class="foot_info infit">
+                <div class="foot_pri">
+                    <a href="#none">이용약관</a>
+                    <a href="#none">개인정보처리방침</a>
+                    <a href="#none">이메일무단수집거부</a>
+                </div>
+                <div class="foot_sns">
+                    <ul class="infit">
+                        <li class="facebook"><a href="#none"></a></li>
+                        <li class="insta"><a href="#none"></a></li>
+                        <li class="youtube"><a href="#none"></a></li>
+                        <li class="kakao"><a href="#none"></a></li>
+                    </ul>
+                </div>
+                <p class="foot_copy">&copy; 2021 Socomo Corp. All rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- [e] footer  -->
+</div>
+
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/masonry.pkgd.min.js"></script>
+<script>
+    // 상품_mansory
+    var $grid = $('.filter-item').masonry({
+        itemSelector: '.grid_item',
+        horizontalOrder: false,
+        gutter: '.gt_size',
+        columnWidth: '.grid_size'
+    });
+
+    //이미지가 모두 로딩후 스크립트 로드시키기
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
+    });
+
+    var sortBtn = document.querySelector('.filter-menu').children;
+    var sortItem = document.querySelector('.filter-item').children;
+
+    for (var i = 0; i < sortBtn.length; i++) {
+        sortBtn[i].addEventListener('click', function () {
+            for (var j = 0; j < sortBtn.length; j++) {
+                sortBtn[j].classList.remove('current');
+            }
+
+            this.classList.add('current');
+
+            var targetData = this.getAttribute('data-target');
+
+            for (var k = 0; k < sortItem.length; k++) {
+                sortItem[k].classList.remove('active');
+                sortItem[k].classList.add('delete');
+
+                if (sortItem[k].getAttribute('data-item') == targetData || targetData == "all") {
+                    sortItem[k].classList.remove('delete');
+                    sortItem[k].classList.add('active');
+                }
+            }
+            //$(".prd_list ul li").removeAttr('style');
+            setTimeout(function () {
+                $grid.masonry();
+            }, 300)
+
+        });
+    }
+
+</script>
+<script src="../js/publish.js"></script>
+
+</body>
+</html>

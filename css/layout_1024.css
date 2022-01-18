@@ -15,32 +15,8 @@
 	.main_new .lft_box .new_item_arr{margin-top:5vw; }
 	.main_bgbox .bg_cont ul li dl{padding:25px 30px; }
 	.main_partner .partner_inner{width:100%; padding:0 20px; }
-
-    .inner .tab_content.active .tab_box { margin-bottom: -8px;}
-/*  [s] profile */
-    .profile-row { display: grid; }
-    /*.profile-row .col-6.profile_upd_2 { width: 100%}*/
-    .profile-row .profile_upd_4 input {min-width: 100px !important}
-    .profile_save_button button {max-width: 320px;min-width: 240px;}
-/*  [e] profile */
 }
-@media only screen and (max-width: 1875px){
-    .rightside_profile { padding: 110px 120px 0 116px;}
-    .profile-row {display: flex}
-    .profile_save_button { flex-direction: row; max-width: 830px; width: 95%}
-    .profile-row .form-outer-inline { width: 320px }
-    .profile-row .form-outer { width: 50%}
-    .profile-row .col-6 input {min-width: 320px;}
-    .profile-row .col-6 input#zoneCode {min-width: 100px;width: 100px;}
-    .profile-row .col-6.profile_upd_9 input {min-width: 210px;}
-    .profile-row .col-6.profile_upd_10 input {min-width: 210px;}
-    .profile-row .profile_upd_4 input { min-width: 100px;}
-    .profile_upd_5 .password-show { margin-left: 280px; }
-    .profile_upd_6 .password-show { margin-left: 280px; }
-    .profile_upd_9 .form-outer-inline { width: 320px; }
-    .profile_upd_10 .form-outer-inline { width: 320px; }
 
-}
 @media only screen and (max-width:1201px){
 	.main_bgbox .bg_cont ul li{width:50%; height:300px; }
 	.main_bgbox .bg_cont ul li:nth-child(1) .bg_inbox,
@@ -48,30 +24,12 @@
 	.main_ex .ex_dsc .ex_dsc_top{padding:105px 0 0 50px;}
 	.main_ex .ex_dsc .ex_dsc_bot{padding:81px 0 0 50px}
 	.main_instagram .insta_inner{width:100%; padding:0 20px; }
-/*   [s] login */
-    .remember-outer .remember-inner {width: 432px;}
-/*    [e] login*/
-/*    [s] comment*/
-    .comment_inner {width: 100%;padding: 0 20px;}
-/*    [e] comment*/
-/*    [s] my profile*/
-    .profile_inner { display: grid}
-    .leftside_profile { width: 100%; height: 500px; padding-left: 200px;}
-    .profile_form_leftside #registerForm .password-show {margin-left: 280px}
-    .form-outer-inline { width: 320px;}
-    .rightside_profile {padding: 0; place-self: center}
-    .profile_withdrawal_member {padding: 0px 0 0px 300px;    }
-    .profile_form_leftside { padding: 20px;}
-    .profile_save_button { width: 320px}
-    .profile-row { display: flex !important}
-    .profile_save_button {max-width: 723px;min-width: 665px !important;width: 97%}
-    .profile_save_button button {max-width: 723px;width: 100%}
-/*    [e] my profile*/
 }
+
 @media only screen and (max-width:1023px){
 	#header .logo{left:50%; transform:translateX(-50%); }
 	#header .header_btn{display:block; }
-	#gnb{position:fixed; top:70px; left:-100%; width:100%; height:calc(100% - 70px); padding:0 30px; background:#fff; border-top:1px solid #f2f2f2; text-align:left; z-index:9992;}
+	#gnb{position:fixed; top:70px; left:-100%; width:100%; height:calc(100% - 70px); padding:0 30px; background:#fff; border-top:1px solid #f2f2f2; text-align:left; z-index:9992;}	
 	#gnb .gnb_depth1 > li{display:block; }
 	#gnb .gnb_depth1 > li > a{display:block; padding:0; }
 	#gnb .gnb_depth2{display:block; position:relative; top:0; padding-top:15px; }
@@ -94,22 +52,4 @@
 	.main_ex .ex_dsc .ex_dsc_bot{padding:60px 40px; }
 
 	.main_partner{padding:50px 0 0;}
-
-    /* [s] News*/
-    .news_title { font-size: 36px;}
-    .news_tabs li {margin-right: 20px;}
-    .news_tabs li a {font-size: 20px;}
-    .post_right_box p {width: 100%}
-    .post_right_box a h2 {margin-top: 60px;}
-    .gallery_date {margin-bottom: 40px;}
-    .tabs ul li .btn {width: 80px; height: 40px; font-size: 15px;margin-right: 15px;}
-    .tab_content .tabs_title:after {right: 2rem;}
-    .sort-items .tab_content.active .tab_box {transition: all 1.5s ease-in}
-     .text-center .right-item {display: none}
-     .tabs_title a {line-height: 30px;}
-    /* [e] News*/
-/*    my profile [s]*/
-    .profile-row {display: grid !important;}
-    .profile_save_button {max-width: 320px;min-width: 320px !important;}
-/*    my profile [e]*/
 }

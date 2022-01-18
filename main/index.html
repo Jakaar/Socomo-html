@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="format-detection" content="telephone=no" />
+<meta name="title" content="sibizi - prototype" />
+<meta name="subject" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>sibizi - prototype2</title>
+
+<link rel="stylesheet" href="../css/import.css">
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/aos.js"></script>
+<script src="../js/jquery.waypoints.min.js"></script>
+<script src="../js/TweenMax.min.js"></script>
+<script src="../js/jquery.counterup.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- [s] wrapper -->
+<div id="wrapper" >
+
+	<div id="skipToContent" class="skipnav">
+		<a href="#container">본문 바로가기</a>
+	</div>
+
+	<header id="header">
+		<h1 class="logo"><a href="../main/index.html"><img src="../img/logo.png" alt="SOCOMO"></a></h1>
+		<nav id="gnb">
+			<ul class="gnb_depth1 infit">
+				<li>
+					<a href="#none">Socomo</a>
+					<ul class="gnb_depth2">
+						<li><a href="#none">Company</a></li>
+						<li><a href="#none">Vison</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none">Product</a>
+					<ul class="gnb_depth2">
+						<li><a href="#none">Chair & Sofa</a></li>
+						<li><a href="#none">Table</a></li>
+						<li><a href="#none">Bed</a></li>
+						<li><a href="#none">Light</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none">Work</a>
+					<ul class="gnb_depth2">
+						<li><a href="#none">Portfolio</a></li>
+						<li><a href="#none">Partners</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none">News</a>
+					<ul class="gnb_depth2">
+						<li><a href="#none">News</a></li>
+						<li><a href="#none">Notice</a></li>
+						<li><a href="#none">Gallery</a></li>
+						<li><a href="#none">Q&A</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none">Contact</a>
+					<ul class="gnb_depth2">
+						<li><a href="#none">Contact Us</a></li>
+						<li><a href="#none">Location</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="gnb_bg"></div>
+		</nav>
+
+		<div class="header_link infit">
+			<a href="#none" class="link_mypage"><img src="../img/ico_mypage.png" alt="마이페이지 바로가기"></a>
+			<a href="#none" class="link_sch"><img src="../img/ico_head_sch_btn.png" alt="검색아이콘"></a>
+		</div>
+
+		<a href="javascript:void(0)" class="header_btn">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+
+		<div class="head_sch_wp">
+			<button type="button" class="sch_clo"><img src="../img/ico_close.png" alt="검색창 닫기버튼"></button>
+			<div class="hd_sch">
+				<input type="text" class="hd_sch_ip" placeholder="Enter your keywords...">
+				<button type="button" class="hd_sch_btn"><img src="../img/ico_head_sch_btn2.png" alt="검색버튼"></button>
+			</div>
+		</div>
+	</header>
+
+	<!-- [s] 컨텐츠 container -->
+	<div id="container">
+		<!-- [s] visual -->
+		<div class="main_visual">
+			<div class="vs_bg_box">
+				<div class="vs_bg bs_bg01"></div>
+				<div class="vs_bg bs_bg02"></div>
+			</div>
+			<div class="vs_inner">
+				<div class="vs_text_box">
+					<div class="vs_text">
+						<dl>
+							<dt><span>Wooden furniture</span></dt>
+							<dd><span>Elegance In<br>Interior Design</span></dd>
+						</dl>
+						<div class="vs_btn">
+							<a href="#none">Discover<img src="../img/ico_vs_more_btn.png" alt="바로가기 버튼 아이콘"></a>
+						</div>
+					</div>
+					<div class="vs_text">
+						<dl>
+							<dt><span>Wooden furniture</span></dt>
+							<dd><span>Elegance In<br>Interior Design</span></dd>
+						</dl>
+						<div class="vs_btn">
+							<a href="#none">Discover<img src="../img/ico_vs_more_btn.png" alt="바로가기 버튼 아이콘"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="vs_slide">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide_item01">
+								<div class="img"></div>
+							</div>
+							<div class="swiper-slide slide_item02">
+								<div class="img"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="vs_page"></div>
+			</div>
+		</div>
+		<!-- [e] visual -->
+
+		<!-- [s] new item -->
+		<div class="main_new">
+			<div class="inner">
+
+				<div class="lft_box">
+					<h2 data-aos="fade-up" data-aos-duration="900">New Item</h2>
+					<p class="ttl" data-aos="fade-up" data-aos-duration="900">Exotic minimal<br>furniture</p>
+					<div class="new_item_arr infit">
+						<a href="javascript:void(0)" class="n_item_prev"></a>
+						<a href="javascript:void(0)" class="n_item_next"></a>
+					</div>
+				</div>
+
+				<!-- [s] new item slider -->
+				<div class="rgt_box">
+					<div class="swiper-container">					
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide_item" data-aos="fade-up" data-aos-duration="900">
+								<a href="#none">
+									<img src="../img/new_item01.jpg " alt="pendant lamp">
+									<p class="tit">Pendant lamp</p>
+								</a>								
+							</div>
+							<div class="swiper-slide slide_item" data-aos="fade-up" data-aos-duration="1100">
+								<a href="#none">
+									<img src="../img/new_item02.jpg " alt="fabric sofa">
+									<p class="tit">Fabric sofa</p>
+								</a>								
+							</div>
+							<div class="swiper-slide slide_item" data-aos="fade-up" data-aos-duration="1300">
+								<a href="#none">
+									<img src="../img/new_item03.jpg " alt="wood cabinet">
+									<p class="tit">Wood cabinet</p>
+								</a>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- [e] new item slider -->
+
+			</div>
+		</div>
+		<!-- [e] new item -->
+
+		<!-- [s] living room -->
+		<div class="main_living">
+			<div class="inner">
+				<h2 data-aos="fade-up" data-aos-duration="900">LIVING ROOM</h2>
+				<ul class="infit">
+					<li data-aos="fade-up" data-aos-duration="900">
+						<div class="thum"><img src="../img/living_thum01.jpg" alt="living room"></div>
+						<dl>
+							<dt>Title here</dt>
+							<dd>Lorem ipsum dolor amet consectetur<br>adipiscing elit do eiusmod tempor</dd>
+						</dl>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1100">
+						<div class="thum"><img src="../img/living_thum02.jpg" alt="living room"></div>
+						<dl>
+							<dt>Title here</dt>
+							<dd>Lorem ipsum dolor amet consectetur<br>adipiscing elit do eiusmod tempor</dd>
+						</dl>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1300">
+						<div class="thum"><img src="../img/living_thum03.jpg" alt="living room"></div>
+						<dl>
+							<dt>Title here</dt>
+							<dd>Lorem ipsum dolor amet consectetur<br>adipiscing elit do eiusmod tempor</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- [e] livin	g room -->
+
+		<!-- [s] search -->
+		<div class="main_search">
+			<h2 data-aos="fade-up" data-aos-duration="900">Lorem ipsum dolor sit amet,<br class="dv_pc">sed do eiusmod tempor incididunt.</h2>
+			<div class="sch_box" data-aos="fade-up" data-aos-duration="900">
+				<input type="text" class="ip_sch">
+				<button type="submit" class="btn_sch">search</button>
+			</div>
+		</div>
+		<!-- [e] search -->
+
+		<!-- [s] introduce -->
+		<div class="main_intro">
+			<div class="inner">
+				<!-- [s] intro slider -->
+				<div class="intro_slide" data-aos="fade-up" data-aos-duration="900">		
+					<div class="intro_nav infit">
+						<span class="it_nav_num"></span>
+						<div class="it_slide_ttl">
+							<div class="it_sd_tt">Clasic &amp; Modern</div>
+							<div class="it_sd_tt">Lorem &amp; Ipsum</div>
+							<div class="it_sd_tt">Dolor &amp; Sit</div>
+						</div>
+						<div class="intro_arr infit">
+							<a href="javascript:void(0)" class="it_prev"></a>
+							<a href="javascript:void(0)" class="it_next"></a>
+						</div>
+					</div>
+					<div class="swiper-container">					
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide_item01">
+								<div class="img"></div>
+								<!--<img src="../img/intro_slideimg01.jpg" alt="Clasic & Modern">-->
+							</div>
+							<div class="swiper-slide slide_item02">
+								<div class="img"></div>
+								<!--<img src="../img/intro_slideimg02.jpg" alt="Lorem & Ipsum">-->
+							</div>
+							<div class="swiper-slide slide_item03">
+								<div class="img"></div>
+								<!--<img src="../img/intro_slideimg03.jpg" alt="Dolor & Sit">-->
+							</div>
+						</div>
+						<div class="intro_bg">
+							<div class="dv_pc"><img src="../img/intro_masking_bg.png" alt=""></div>
+							<div class="dv_mob"><img src="../img/m_intro_masking_bg.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+				<!-- [e] intro slider -->
+				<div class="intro_text">
+					<h2 data-aos="fade-up" data-aos-duration="900">Hand crafted pixel</h2>
+					<div class="text_slide" data-aos="fade-up" data-aos-duration="900">
+						<div class="swiper-container">					
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">PERFECT DESIGN</div>
+								<div class="swiper-slide">PERFECT LAYOUT</div>
+								<div class="swiper-slide">PERFECT COLOR</div>
+								<div class="swiper-slide">PERFECT DESIGN</div>
+								<div class="swiper-slide">PERFECT LAYOUT</div>
+								<div class="swiper-slide">PERFECT COLOR</div>
+								<div class="swiper-slide">PERFECT DESIGN</div>
+								<div class="swiper-slide">PERFECT LAYOUT</div>
+								<div class="swiper-slide">PERFECT COLOR</div>
+							</div>
+						</div>
+					</div>
+					<p class="desc" data-aos="fade-up" data-aos-duration="900">
+						Lorem ipsum dolor sit amet consectetur adipiscing elit do 
+						eiusmod tempor incididunt ut labore et dolore magna ut 
+						enim ad minim veniam nostrud exercitation.
+					</p>
+					<ul data-aos="fade-up" data-aos-duration="900">
+						<li>Advanced customization theme options</li>
+						<li>Manage and share your workspace</li>
+						<li>Powerful theme for creatives designer</li>
+						<li>Browse amazing popular social features</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- [e] introduce -->
+
+		<!-- [s] products -->
+		<div class="main_product">
+			<div class="inner">
+				<h2 data-aos="fade-up" data-aos-duration="900">PRODUCTS</h2>
+				<div class="prd_cata" data-aos="fade-up" data-aos-duration="900">
+					<ul class="filter-menu infit"> 
+						<li data-target="all" class="current"><a href="#none">ALL</a></li>
+						<li data-target="chairsofa"><a href="#none">Chair &amp; Sofa</a></li>
+						<li data-target="table"><a href="#none">Table</a></li>
+						<li data-target="bed"><a href="#none">Bed</a></li>
+						<li data-target="light"><a href="#none">Light</a></li>
+					</ul>
+				</div>
+				<div class="prd_list" data-aos="fade-up" data-aos-duration="900">
+					<div class="filter-item infit">
+						<div class="gt_size"></div>
+						<div class="grid_size"></div>
+						<div class="grid_item" data-item="table">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item01.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Table</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="grid_item" data-item="light">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item02.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Light</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="grid_item" data-item="chairsofa">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item03.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Chair</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="grid_item" data-item="bed">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item04.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Bed</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="grid_item" data-item="chairsofa">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item05.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Sofa</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="grid_item" data-item="table">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item06.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Table</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="grid_item" data-item="light">
+							<a href="#none">
+								<div class="thum"><img src="../img/prd_item07.jpg" alt=""></div>
+								<div class="caption">
+									<div class="desc">
+										<p class="tit">Light</p>
+										<p class="dsc">Furniture</p>
+									</div>
+								</div>
+							</a>
+						</div>
+	
+					</div>
+				</div>
+			</div>		
+		</div>
+		<!-- [e] products -->
+
+		<!-- [s] -->
+		<div class="main_bgbox">
+
+			<div class="bg_img">
+				<div class="bg bg01 on"></div>
+				<div class="bg bg02"></div>
+				<div class="bg bg03"></div>
+				<div class="bg bg04"></div>
+			</div>
+
+			<div class="bg_cont">
+				<ul class="infit">
+					<li>			
+						<div class="bg_inbox">
+							<dl>
+								<dt>Furniture</dt>
+								<dd>
+									Four essential mome<br>
+									practices for every reason
+								</dd>
+							</dl>
+						</div>												
+					</li>
+					<li>		
+						<div class="bg_inbox">
+							<dl>
+								<dt>Bedroom</dt>
+								<dd>
+									Simple wall decor<br>
+									inspiration style saturdays
+								</dd>
+							</dl>
+						</div>												
+					</li>
+					<li>		
+						<div class="bg_inbox">
+							<dl>
+								<dt>Decor</dt>
+								<dd>
+									Are you looking for<br>
+									the planter based cleaners
+								</dd>
+							</dl>
+						</div>													
+					</li>
+					<li>	
+						<div class="bg_inbox">
+							<dl>
+								<dt>Lighting</dt>
+								<dd>
+									I shine with love<br>
+									and light in every moment
+								</dd>
+							</dl>
+						</div>													
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- [e] -->
+
+		<!-- [s] experience -->
+		<div class="main_ex infit">
+			<div class="ex_bg" data-aos="fade-right" data-aos-duration="900"></div>
+			<div class="ex_dsc">
+				<div class="ex_dsc_top">
+					<dl>
+						<dt data-aos="fade-up" data-aos-duration="900">We design <strong>brand, digital<br> experience</strong> that engage the<br>right customers</dt>
+						<dd data-aos="fade-up" data-aos-duration="900">Lorem ipsum is simply dummy text of the<br>printing and typesetting.</dd>
+					</dl>
+				</div>
+				<div class="ex_dsc_bot">
+					<ul class="infit" data-aos="fade-up" data-aos-duration="900">
+						<li>
+							<p class="counter">380</p>
+							<span>PROJECTS</span>
+						</li>
+						<li>
+							<p class="counter">700</p>
+							<span>CHANNELS</span>
+						</li>
+						<li>
+							<p class="counter">240</p>
+							<span>BRAND</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- [e] experience -->
+
+		<!-- [s] video -->
+		<!-- 로딩느려서 일단 주석처리
+		<div class="main_video">
+			<div class="video_wrap">
+				<div class="video_item">
+					<video muted loop autoplay playsinline>
+						<source src="../video/main_video.mp4" type="video/mp4">      
+					</video>
+				</div>
+			</div>
+		</div>
+		-->
+		<!-- [e] video -->
+
+		<!-- [s] partner -->
+		<div class="main_partner">
+			<div class="partner_inner">
+				<ul class="infit">
+					<li data-aos="fade-up" data-aos-duration="600">
+						<a href="#none">
+							<img src="../img/partner_logo01.png" alt="colorlib">
+							<span><img src="../img/partner_logo01_on.png" alt="colorlib"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="900">
+						<a href="#none">
+							<img src="../img/partner_logo02.png" alt="envato">
+							<span><img src="../img/partner_logo02_on.png" alt="envato"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1200">
+						<a href="#none">
+							<img src="../img/partner_logo03.png" alt="pingdom">
+							<span><img src="../img/partner_logo03_on.png" alt="pingdom"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1500">
+						<a href="#none">
+							<img src="../img/partner_logo04.png" alt="magento">
+							<span><img src="../img/partner_logo04_on.png" alt="magento"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1800">
+						<a href="#none">
+							<img src="../img/partner_logo05.png" alt="woo commerce">
+							<span><img src="../img/partner_logo05_on.png" alt="woo commerce"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="2100">
+						<a href="#none">
+							<img src="../img/partner_logo06.png" alt="laravel">
+							<span><img src="../img/partner_logo06_on.png" alt="laravel"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="2400">
+						<a href="#none">
+							<img src="../img/partner_logo07.png" alt="ngular">
+							<span><img src="../img/partner_logo07_on.png" alt="ngular"></span>
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="2700">
+						<a href="#none">
+							<img src="../img/partner_logo08.png" alt="google">
+							<span><img src="../img/partner_logo08_on.png" alt="google"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- [s] partner -->
+
+		<!-- [s] instagram -->
+		<div class="main_instagram">
+			<div class="insta_inner">
+				<h2 data-aos="fade-up" data-aos-duration="900">INSTAGRAM</h2>
+				<p class="desc" data-aos="fade-up" data-aos-duration="900">@socomo_official</p>
+				<ul class="infit">
+					<li data-aos="fade-up" data-aos-duration="600">
+						<a href="#none">
+							<img src="../img/insta_thum01.jpg" alt="instagram 썸네일">
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="900">
+						<a href="#none">
+							<img src="../img/insta_thum02.jpg" alt="instagram 썸네일">
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1200">
+						<a href="#none">
+							<img src="../img/insta_thum03.jpg" alt="instagram 썸네일">
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1500">
+						<a href="#none">
+							<img src="../img/insta_thum04.jpg" alt="instagram 썸네일">
+						</a>
+					</li>
+					<li data-aos="fade-up" data-aos-duration="1800">
+						<a href="#none">
+							<img src="../img/insta_thum05.jpg" alt="instagram 썸네일">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- [e] instagram -->
+
+	</div>
+	<!-- [e] 컨텐츠 container -->
+
+	<!-- [s] footer  -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="foot_lft">
+				<div class="foot_cp">
+					<h2 class="tit">Company</h2>
+					<p class="txt">
+						(주)소코모<br>
+						대표이사 : 소코모  <a href="#none">사업자정보확인</a><br>
+						서울특별시 강남구 봉은사로 207, 7층 (논현동)<br>
+						사업자등록번호 : 105-87-47183<br>
+						통신판매업신고번호 : 제2014-서울강남-00395호
+					</p>
+				</div>
+				<div class="foot_cs">
+					<h2 class="tit">Customer</h2>
+					<p class="foot_tel">1544-9899</p>
+					<p class="foot_time"><img src="../img/ico_time.png" alt="시계 아이콘">AM 09:30 - PM 18:30</p>
+					<p class="foot_fax">Fax : 02-6499-1221</p>
+					<p class="foot_email">E-mail : service@sibizi.com</p>
+				</div>
+			</div>
+			<div class="foot_info infit">
+				<div class="foot_pri">
+					<a href="#none">이용약관</a>
+					<a href="#none">개인정보처리방침</a>
+					<a href="#none">이메일무단수집거부</a>
+				</div>
+				<div class="foot_sns">
+					<ul class="infit">
+						<li class="facebook"><a href="#none"></a></li>
+						<li class="insta"><a href="#none"></a></li>
+						<li class="youtube"><a href="#none"></a></li>
+						<li class="kakao"><a href="#none"></a></li>
+					</ul>
+				</div>
+				<p class="foot_copy">&copy; 2021 Socomo Corp. All rights Reserved.</p>
+			</div>
+		</div>
+	</footer>      
+	<!-- [e] footer  -->
+</div>
+
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/masonry.pkgd.min.js"></script>
+<script>
+	// 상품_mansory
+	var $grid = $('.filter-item').masonry({
+		itemSelector: '.grid_item',
+		horizontalOrder: false,		
+		gutter: '.gt_size',
+		columnWidth: '.grid_size'
+	});
+
+	//이미지가 모두 로딩후 스크립트 로드시키기
+	$grid.imagesLoaded().progress( function() {
+	$grid.masonry('layout');
+	});
+	
+	var sortBtn = document.querySelector('.filter-menu').children;
+	var sortItem = document.querySelector('.filter-item').children;
+
+	for(var i = 0; i < sortBtn.length; i++){
+		sortBtn[i].addEventListener('click', function(){
+			for(var j = 0; j< sortBtn.length; j++){
+				sortBtn[j].classList.remove('current');
+			}
+
+			this.classList.add('current');			
+
+			var targetData = this.getAttribute('data-target');
+
+			for(var k = 0; k < sortItem.length; k++){
+				sortItem[k].classList.remove('active');
+				sortItem[k].classList.add('delete');
+
+				if(sortItem[k].getAttribute('data-item') == targetData || targetData == "all"){
+					sortItem[k].classList.remove('delete');
+					sortItem[k].classList.add('active');
+				}
+			}
+			//$(".prd_list ul li").removeAttr('style');
+			setTimeout(function(){
+				$grid.masonry();
+			},300)
+			
+		});
+	}
+	
+</script>
+<script src="../js/publish.js"></script>
+
+</body>
+</html>
