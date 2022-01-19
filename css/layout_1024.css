@@ -132,6 +132,8 @@
     margin-right: 0;
   }
 
+  /* [s] company */
+
   .main_intro .intro_slide .swiper-slide {
     height: 450px;
   }
@@ -228,4 +230,26 @@
   .company-certif-cont div img {
     width: 100%;
   }
+
+  /* [e] company */
+
+  /* [s] main-vision */
+
+  .vision-container {
+    padding: 91px 20px 0 20px;
+  }
+
+  .vision-box {
+    width: 90%;
+  }
+
+  .vision-banner-title h1 {
+    left: 150px;
+  }
+
+  .vision-banner-title p {
+    left: 150px;
+  }
+
+  /* [e] main-vision */
 }

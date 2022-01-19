@@ -885,4 +885,322 @@
   }
 
   /* [e] Company */
+
+  /* [s] main-vision */
+
+  .vision-banner-title h1 {
+    left: 20px;
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .vision-banner-title p {
+    width: 265px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .vision-container {
+    padding: 34px 20px 0 20px;
+  }
+
+  .vision-title {
+    margin-bottom: 21px;
+  }
+
+  .vision-title h1 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px;
+  }
+
+  .vision-title p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .vision-box {
+    width: 100%;
+    height: 71%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 33.333%);
+    padding-right: 20px;
+    gap: 20px;
+  }
+
+  .vision-box-01 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .vision-box-title-01 {
+    display: none;
+  }
+
+  .vision-box-title-mobile {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .vision-box-title-mobile h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    position: absolute;
+    left: 23px;
+    top: 26px;
+    width: 127px;
+  }
+
+  .vision-box-title-mobile p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 23px;
+    top: 81.5px;
+  }
+
+  .vision {
+    width: 100%;
+    height: 837.5px;
+  }
+
+  .vision-box-01 {
+    height: 190px;
+  }
+
+  .vision-box-img-01 {
+    width: 100%;
+    height: 190px;
+  }
+
+  .vision-box-02 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .vision-box-img-02 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .vision-box-title-02 h3 {
+    margin-top: 9px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+  }
+
+  .vision-box-03 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .vision-box-img-03 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .vision-box-title-03 h3 {
+    margin-top: 9px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+  }
+
+  .vision-box-04 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .vision-box-img-04 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .vision-box-title-04 h3 {
+    margin-top: 9px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+  }
+
+  .vision-box-05 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .vision-box-img-05 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .vision-box-title-05 h3 {
+    margin-top: 9px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+  }
+
+  .vision-content-box-01 {
+    padding-top: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .vision-content-img-01 {
+    height: 192px;
+    width: 100%;
+  }
+
+  .vision-content-img-01 img {
+    width: 100%;
+    height: 192px;
+  }
+
+  .vision-content-title-01 h6 {
+    font-size: 10px;
+    line-height: 50px;
+    height: 40px;
+  }
+
+  .vision-content-title-01 h1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+
+  .vision-content-title-01 p {
+    font-size: 10px;
+    line-height: 15px;
+    width: 295px;
+  }
+
+  .vision-content-title-02 h6 {
+    font-size: 10px;
+    line-height: 50px;
+    height: 40px;
+  }
+
+  .vision-content-title-02 h1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+
+  .vision-content-title-02 p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 20%;
+  }
+
+  .vision-content-box-02 {
+    margin-top: 40px;
+    display: block;
+  }
+
+  .vision-content-img-02 {
+    width: 100%;
+    height: 192px;
+  }
+
+  .vision-content-title-03 h6 {
+    font-size: 10px;
+    line-height: 50px;
+    height: 40px;
+  }
+
+  .vision-content-title-03 h1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+
+  .vision-content-title-03 p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-right: 20%;
+    text-align: end;
+  }
+
+  .vision-content-box-03 {
+    margin-top: 40px;
+    display: block;
+    height: auto;
+  }
+
+  .vision-content-img-03 {
+    width: 100%;
+    height: 192px;
+  }
+
+  .vision-content-title-04 h6 {
+    font-size: 10px;
+    line-height: 50px;
+    height: 40px;
+  }
+
+  .vision-content-title-04 h1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+
+  .vision-content-title-04 p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 20%;
+    text-align: end;
+  }
+
+  .vision-content-box-04 {
+    margin-top: 40px;
+    display: block;
+  }
+
+  .vision-content-img-04 {
+    width: 100%;
+    height: 192px;
+  }
+
+  .vision-content {
+    height: 1434px;
+    width: 100%;
+  }
+
+  .second-banner {
+    width: 100%;
+    height: 150px;
+  }
+
+  .second-banner-title h1 {
+    padding-top: 32.5px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .second-banner-title span {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .second-banner-link {
+    margin-top: 11px;
+    gap: 6px;
+  }
+
+  .second-banner-link a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  /* [e] main-vision */
 }

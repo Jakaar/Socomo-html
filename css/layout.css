@@ -2154,3 +2154,521 @@ html.no_scroll {
 }
 
 /* [e] Company */
+
+/* [s] vision */
+
+.vision-banner {
+  width: 100%;
+  height: 514px;
+  background-image: url(../img/bg-vision.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.vision-banner-title h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  position: absolute;
+  top: 180px;
+  left: 278px;
+  color: #f2f2f2;
+}
+
+.vision-banner-title p {
+  width: 550px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f2f2f2;
+  position: absolute;
+  top: 310px;
+  left: 278px;
+}
+
+.vision {
+  width: 100%;
+  height: 1322px;
+}
+
+.vision-container {
+  width: 100%;
+  height: 100%;
+  padding: 91px 281px 0 279px;
+}
+
+.vision-title {
+  margin-bottom: 73px;
+}
+
+.vision-title h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.vision-title p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.vision-box {
+  width: 100%;
+  height: 900px;
+  column-gap: 31px;
+  row-gap: 33px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+}
+
+.vision-box-01 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vision-box-img-01 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/box-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vision-box-02 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vision-box-img-02 {
+  background-image: url(../img/box-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 73%;
+}
+
+.vision-box-03 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vision-box-img-03 {
+  background-image: url(../img/box-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 73%;
+}
+
+.vision-box-04 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vision-box-img-04 {
+  background-image: url(../img/box-04.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 73%;
+}
+
+.vision-box-05 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vision-box-img-05 {
+  background-image: url(../img/box-05.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 73%;
+}
+
+.vision-box-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.vision-box-title-01 h3 {
+  width: 556px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  position: absolute;
+  top: 82px;
+  left: 80px;
+  color: white;
+}
+
+.vision-box-title-01 p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  left: 80px;
+  top: 227px;
+  color: white;
+}
+
+.vision-box-title-02 h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  width: 231px;
+  margin: 21px auto 0 auto;
+}
+
+.vision-box-title-03 h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  width: 275px;
+  margin: 21px auto 0 auto;
+}
+
+.vision-box-title-04 h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  width: 231px;
+  margin: 21px auto 0 auto;
+}
+
+.vision-box-title-05 h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  width: 231px;
+  margin: 21px auto 0 auto;
+}
+
+.vision-content {
+  width: 100%;
+  height: 1919px;
+  background-color: #f4f4f4;
+}
+
+.vision-content-box-01 {
+  width: 100%;
+  padding-top: 37px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  gap: 47.5px;
+}
+
+.vision-content-img-01 {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-img-01 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-title-01 {
+  width: 100%;
+}
+
+.vision-content-title-01 h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.vision-content-title-01 h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 50px;
+}
+
+.vision-content-title-01 p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.vision-content-box-02 {
+  width: 100%;
+  margin-top: 119px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  gap: 47.5px;
+  flex-direction: row-reverse;
+}
+
+.vision-content-img-02 {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-img-02 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-title-02 {
+  width: 100%;
+}
+
+.vision-content-title-02 h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: right;
+}
+
+.vision-content-title-02 h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 50px;
+  text-align: right;
+}
+
+.vision-content-title-02 p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  text-align: right;
+}
+
+.vision-content-box-03 {
+  width: 100%;
+  margin-top: 119px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  gap: 47.5px;
+}
+
+.vision-content-img-03 {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-img-03 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-title-03 {
+  width: 100%;
+}
+
+.vision-content-title-03 h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.vision-content-title-03 h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 50px;
+}
+
+.vision-content-title-03 p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.vision-content-box-04 {
+  width: 100%;
+  margin-top: 119px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  gap: 47.5px;
+  flex-direction: row-reverse;
+}
+
+.vision-content-img-04 {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-img-04 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-content-title-04 {
+  width: 100%;
+}
+
+.vision-content-title-04 h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: right;
+}
+
+.vision-content-title-04 h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 50px;
+  text-align: right;
+}
+
+.vision-content-title-04 p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  text-align: right;
+}
+
+.second-banner {
+  width: 100%;
+  height: 380px;
+  background-image: url(../img/bg-vision-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-banner-title h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 83%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 141px;
+}
+
+.second-banner-title span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 83%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.second-banner-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.second-banner-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #eb5757;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  width: 40.85px;
+  height: 21px;
+}
+
+.second-banner-link a img {
+  width: 26px;
+  height: 26px;
+}
+
+.vision-box-title-mobile {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* [e] vision */
