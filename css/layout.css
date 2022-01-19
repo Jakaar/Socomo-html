@@ -1717,6 +1717,7 @@ html.no_scroll {
 }
 
 .company-cont {
+  padding: 0 50px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -1807,10 +1808,12 @@ html.no_scroll {
 }
 
 .company-grap-title {
+  padding: 0 50px;
   width: 100%;
   display: flex;
   margin-top: 114px;
   margin-bottom: 27px;
+  justify-content: center;
 }
 
 .company-grap-title div {
@@ -1818,15 +1821,7 @@ html.no_scroll {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.company-grap-title div:first-child {
-  margin-left: 390px;
-  margin-right: 328px;
-}
-
-.company-grap-title div:last-child {
-  margin-left: 287px;
+  position: relative;
 }
 
 .company-grap-title div:first-child h1 {
@@ -1855,31 +1850,32 @@ html.no_scroll {
   font-size: 12px;
 }
 
-.graph {
+.company-grap-title div:first-child img {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.graph div:first-child {
+  height: 100%;
   padding-right: 86px;
-  border-right: 1px solid #e2e2e2;
   position: relative;
   z-index: 0;
+  margin-bottom: 5px;
 }
 
-.graph div:nth-child(2) {
+.company-grap-title div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
   padding-left: 31px;
   padding-right: 34px;
+  border-left: 1px solid #e2e2e2;
 }
 
-.graph div:last-child {
+.company-grap-title div:last-child img {
+  width: 100%;
+  height: 100%;
   padding-left: 19px;
   border-left: 1px solid #e3e3e3;
 }
 
 .company-history {
+  padding: 0 50px;
   width: 100%;
   height: 1671px;
   position: relative;
@@ -2153,18 +2149,8 @@ html.no_scroll {
   line-height: 60px;
 }
 
-.eight {
-  position: absolute;
-  top: 120px;
-  left: 90px;
-  width: 80px;
-  height: 30px;
-  z-index: 10;
-}
-
-.eight img {
-  width: 100%;
-  height: 100%;
+.company-his-mobile {
+  display: none;
 }
 
 /* [e] Company */
