@@ -933,3 +933,107 @@
 /*.detail-info-item-left-image { position: absolute; margin-top: 490px;}*/
 
 /* [e] Product detail*/
+
+/* [s] Partner */
+#partner-container {
+	width: 100%;
+	height: 1354px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.partner-banner {
+	width: 100%;
+	position: absolute;
+	height: 494px;
+}
+
+.partner-banner img {
+	width: 100%;
+	height: 100%;
+}
+
+.part-ban-cont {
+	position: absolute;
+	top: 200px;
+	left: 14.58%;
+	max-width: 1203px;
+	/* background: greenyellow; */
+}
+
+.part-ban-cont h1 {
+	position: absolute;
+	font-size: 64px;
+	color: #ffffff;
+	width: 283px;
+	height: 96px;
+} 
+
+.part-ban-cont p {
+	font-size: 16px;
+	color: #ffffff;
+	width: 80%;
+	height: 48px;
+	font-weight: 400px;
+	position: relative;
+	margin-top: 140px;
+	line-height: 24px;
+}
+
+.part-left-sec {
+	width: 210px;
+	height: 168px;
+	top: 44.6%;
+	left:  14.58%;
+	position: absolute;
+}
+
+.part-left-sec h5 {
+	color: #eb5757;
+	font-size: 20px;
+	width: 100%;
+	height: 26px;
+	font-weight: 600;
+}
+
+.part-left-sec p {
+	font-size: 48px;
+	font-weight: 600;
+	width: 100%;
+	color: #333333;
+	margin-top: 26px;
+}
+
+.part-page-logo-sec {
+	top: 604px;
+	left: 38.75%;
+	position: absolute;
+	display: grid;
+	width: 876px;
+	height: 740px;
+	grid-gap: 30px;
+	grid-template-columns: auto auto auto auto;
+	
+}
+.part-logo-sec > div {
+	text-align: center;
+	
+}
+
+.part-page-logo-sec .part-page-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* display: none; */
+}
+
+.part-page-logo-sec img {
+	position: relative;
+	mix-blend-mode: luminosity;
+	cursor: pointer;
+}
+
+.part-page-logo-sec img[alt="1"]:hover {
+	mix-blend-mode: normal;
+}
+/* [e] Partner */
