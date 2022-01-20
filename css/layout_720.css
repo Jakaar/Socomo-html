@@ -534,7 +534,7 @@
     line-height: 19.5px;
     left: 20px;
     top: 164px;
-    width: 100%;
+    width: 90%;
     padding-right: 75px;
   }
 
@@ -617,9 +617,10 @@
   }
 
   .company-info-title h1 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 60px;
     text-align: center;
+    width: 100%;
   }
 
   .company-info-title p {
@@ -874,9 +875,14 @@
     margin-bottom: 42px;
   }
 
+  .company-certif-cont div {
+    width: 100%;
+    height: 150px;
+  }
+
   .company-certif-cont div img {
     width: 110px;
-    height: 88px;
+    height: 85px;
   }
 
   .company-certif-cont div h3 {
