@@ -19,6 +19,8 @@
     <script src="../js/jquery.waypoints.min.js"></script>
     <script src="../js/TweenMax.min.js"></script>
     <script src="../js/jquery.counterup.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 
 
 </head>
@@ -113,7 +115,7 @@
         <div class="inner">
             <div class="product-detail">
                 <div class="product-detail-image-slider ">
-                    <div class="swiper mySwiper active" id="tab1">
+                    <div class="swiper mySwiper active">
                         <div class="swiper-wrapper ">
                             <div class="swiper-slide"><img src="../img/product-item1.png" alt=""></div>
                             <div class="swiper-slide"><img src="../img/product-item1.png" alt=""></div>
@@ -121,15 +123,15 @@
                             <div class="swiper-slide"><img src="../img/product-item1.png" alt=""></div>
                         </div>
                     </div>
-                    <div class="swiper mySwiper " id="tab2">
+                    <div class="swiper mySwiper ">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="../img/product-item2.png" alt=""></div>
-                            <div class="swiper-slide"><img src="../img/product-item2.png" alt=""></div>
-                            <div class="swiper-slide"><img src="../img/product-item2.png" alt=""></div>
-                            <div class="swiper-slide"><img src="../img/product-item2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="../img/product-item3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="../img/product-item3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="../img/product-item3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="../img/product-item3.png" alt=""></div>
                         </div>
                     </div>
-                    <div class="swiper mySwiper " id="tab3">
+                    <div class="swiper mySwiper ">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="../img/product-item3.png" alt=""></div>
                             <div class="swiper-slide"><img src="../img/product-item3.png" alt=""></div>
@@ -141,6 +143,7 @@
                     <div class="swiper-button-prev"></div>
                     <!--                        <div class="swiper-pagination"></div>-->
                 </div>
+
                 <div class="product-detail-content">
                     <h1 class="">Mellow Chair</h1>
                     <p class="product-detail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -150,68 +153,65 @@
                         <span class="product-detail-color">Color :</span>
                         <span class="product-detail-color-name">Mint </span>
                         <select name="product-detail-colors" id="product-detail-colors">
-                            <option id="#tab1" value="mint"
-                                    style="background :url('../img/color-mint.png') 0 0 no-repeat;width: 150px;padding: 10px;">
-                                Mint
-                            </option>
-                            <option id="#tab2" value="pink">Pink</option>
-                            <option id="#tab3" value="grey">Grey</option>
+                            <option class="color-tab" data-target="color-tab-1" value="mint" style="background :url('../img/color-mint.png') 0 0 no-repeat;width: 150px;padding: 10px;">Mint</option>
+                            <option class="color-tab" data-target="color-tab-2" value="grey">Grey</option>
+                            <option class="color-tab" data-target="color-tab-3" value="pink">Pink</option>
                         </select>
                     </div>
                     <button>BUY NOW</button>
                 </div>
             </div>
-            <div class="product-detail-information">
-                <ul class="product-detail-info-cat">
-                    <li class="active"><a href="#"> Details</a></li>
-                    <li><a href="#"> Information</a></li>
-                    <li><a href="#"> Size&Weights</a></li>
-                    <li><a href="#"> Materials</a></li>
-                </ul>
-                <div class="product-detail-info-list">
-                    <div class="product-detail-info-item">
-                        <div class="detail-info-item-title">
-                            <h1>Socomo design</h1>
-                            <p>Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="detail-info-item-image">
-                            <img src="../img/details-big.png" alt="">
-                        </div>
-                        <div class="detail-info-item-left-image">
-                            <img src="../img/details-small.png" alt="">
-                        </div>
-                        <div class="detail-info-item-right-content">
-                            <h2>Mellow Chair</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Sed sed diam accumsan, hendrerit ante eget, posuere felis.
-                                Etiam mollis mattis lectus. Nunc eu fringilla enim. Ut in fermentum arcu.
-                                Maecenas consectetur est sed arcu dapibus, a aliquam felis pulvinar.
-                                Sed blandit lectus purus, eu fringilla nunc euismod nec.
-                                Donec interdum eros tortor, non pulvinar lorem pellentesque sed. </p>
-                            <img src="../img/details-content.png" alt="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Sed sed diam accumsan, hendrerit ante eget, posuere felis.
-                                Etiam mollis mattis lectus. Nunc eu fringilla enim. Ut in fermentum arcu.
-                                Maecenas consectetur est sed arcu dapibus, a aliquam felis pulvinar.
-                                Sed blandit lectus purus, eu fringilla nunc euismod nec.
-                                Donec interdum eros tortor, non pulvinar lorem pellentesque sed. </p>
-                        </div>
-                    </div>
-                    <div class="product-detail-info-item">
 
+        <div class="product-detail-information">
+            <ul class="product-detail-info-cat">
+                <li class="active custom_tab" data-target="0"><a> Details</a></li>
+                <li class="custom_tab" data-target="1"><a> Information</a></li>
+                <li class="custom_tab" data-target="2"><a> Size&Weights</a></li>
+                <li class="custom_tab" data-target="3"><a> Materials</a></li>
+            </ul>
+            <div class="product-detail-info-list">
+                <div id="tabs-0" class="product-detail-info-item active">
+                    <div class="detail-info-item-title">
+                        <h1>Socomo design</h1>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
                     </div>
-                    <div class="product-detail-info-item">
-
+                    <div class="detail-info-item-image">
+                        <img src="../img/details-big.png" alt="">
                     </div>
-                    <div class="product-detail-info-item">
-
+                    <div class="detail-info-item-left-image">
+                        <img src="../img/details-small.png" alt="">
+                    </div>
+                    <div class="detail-info-item-right-content">
+                        <h2>Mellow Chair</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sed diam accumsan, hendrerit ante eget, posuere felis.
+                            Etiam mollis mattis lectus. Nunc eu fringilla enim. Ut in fermentum arcu.
+                            Maecenas consectetur est sed arcu dapibus, a aliquam felis pulvinar.
+                            Sed blandit lectus purus, eu fringilla nunc euismod nec.
+                            Donec interdum eros tortor, non pulvinar lorem pellentesque sed. </p>
+                        <img src="../img/details-content.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sed diam accumsan, hendrerit ante eget, posuere felis.
+                            Etiam mollis mattis lectus. Nunc eu fringilla enim. Ut in fermentum arcu.
+                            Maecenas consectetur est sed arcu dapibus, a aliquam felis pulvinar.
+                            Sed blandit lectus purus, eu fringilla nunc euismod nec.
+                            Donec interdum eros tortor, non pulvinar lorem pellentesque sed. </p>
                     </div>
                 </div>
+                <div id="tabs-1" class="product-detail-info-item ">
+
+                </div>
+                <div id="tabs-2" class="product-detail-info-item ">
+                </div>
+                <div id="tabs-3" class="product-detail-info-item ">
+                    a
+                </div>
             </div>
+        </div>
         </div>
     </div>
     <footer id="footer">
@@ -270,12 +270,41 @@
     });
 </script>
 <script>
-    $(function () {
+    $(document).ready(function () {
+        // $(".product-detail-info-cat li.active").trigger('click');
+
         $('#product-detail-colors option').click(function () {
             // $('#product-detail-colors option').attr('id')
 
         });
+
+        $(".custom_tab").on("click", function () {
+            const target = $(this).attr("data-target");
+            // console.log(target);
+            $(".custom_tab").each(function (i) {
+                $(this).removeClass("active");
+            });
+            $(".product-detail-info-list .product-detail-info-item ").each(function (i) {
+                if (i != target) {
+                    $(this).hide();
+                    $(this).removeClass("active");
+                } else {
+                    $(this).addClass("active");
+                    $(this).show();
+                }
+            })
+            $(this).addClass("active");
+
+        })
     });
+</script>
+<script>
+    $(function (){
+        $('.color-tab').on('click',function (){
+         const colorTabId = $(this).attr('data-target');
+         console.log(colorTabId)
+        })
+    })
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>

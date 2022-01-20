@@ -19,7 +19,16 @@
     <script src="../js/jquery.waypoints.min.js"></script>
     <script src="../js/TweenMax.min.js"></script>
     <script src="../js/jquery.counterup.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#tabs" ).tabs();
+        } );
+        $('.product-list-category ul li a').click(function (){
+            $(this).parent().addClass('active');
+        })
+    </script>
 
 </head>
 <body class="pc">
@@ -115,13 +124,13 @@
                 </div>
             </div>
             <div class="product-list">
-                <div class="inner">
+                <div class="inner" id="tabs">
                     <div class="product-list-category">
                         <ul>
-                            <li class="active"><a href="#">Chair&Sofa</a></li>
-                            <li><a href="#">Table</a></li>
-                            <li><a href="#">Bed</a></li>
-                            <li><a href="#">Light </a></li>
+                            <li class="active"><a href="#product-category-tab-1">Chair&Sofa</a></li>
+                            <li><a href="#product-category-tab-2">Table</a></li>
+                            <li><a href="#product-category-tab-3">Bed</a></li>
+                            <li><a href="#product-category-tab-4">Light </a></li>
                         </ul>
                     </div>
                     <div class="product-list-banner">
@@ -155,48 +164,174 @@
                             </select>
                         </div>
                     </div>
-                    <ul class="product-list-items infit">
-                        <li class="product-list-item">
+                    <div class="product-list-items infit" id="product-category-tab-1">
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item1.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item2.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item3.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item4.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item5.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item6.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item7.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                        <li class="product-list-item">
+                        </div>
+                        <div class="product-list-item">
                             <div class="product-list-item-image"><img src="../img/product-item8.png" alt=""></div>
                             <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
                             <div class="product-list-item-price"><span>$80.00</span></div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+                    <div class="product-list-items infit" id="product-category-tab-2">
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item2.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item1.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item4.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item3.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item5.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item6.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item7.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item8.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                    </div>
+                    <div class="product-list-items infit" id="product-category-tab-3">
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item3.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item4.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item1.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item2.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item5.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item6.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item7.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item8.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                    </div>
+                    <div class="product-list-items infit" id="product-category-tab-4">
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item4.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item3.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item1.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item2.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item5.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item6.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item7.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                        <div class="product-list-item">
+                            <div class="product-list-item-image"><img src="../img/product-item8.png" alt=""></div>
+                            <div class="product-list-item-title"><h3>Mellow Chair</h3></div>
+                            <div class="product-list-item-price"><span>$80.00</span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
