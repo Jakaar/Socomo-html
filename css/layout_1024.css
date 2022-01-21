@@ -170,64 +170,85 @@
     padding: 50px 0 0;
   }
 
-  .b-title {
+  .company-main .banner .b-title {
     left: 150px;
   }
 
-  .b-parameter {
+  .company-main .banner .b-parameter {
     left: 150px;
   }
 
-  .about-p {
+  .company-main .company .company-cont .about-p {
     width: 100%;
   }
 
-  .company-grap-title {
+  .company-main .compnay-info .company-grap-title {
     padding: 0 50px;
   }
 
-  .company-history-p-02 {
+  .company-main .company-history .company-history-border .company-history-p-02 {
     width: 300px;
     top: 330;
   }
 
-  .company-history-p-03 {
+  .company-main .company-history .company-history-border .company-history-p-03 {
     width: 300px;
     top: 330;
   }
 
-  .company-history-p-04 {
+  .company-main .company-history .company-history-border .company-history-p-04 {
     width: 300px;
     top: 330;
   }
 
-  .company-history-pic-01 {
+  .company-main
+    .company-history
+    .company-history-border
+    .company-history-pic-01 {
     width: 300px;
   }
 
-  .company-history-pic-01 img {
+  .company-main
+    .company-history
+    .company-history-border
+    .company-history-pic-01
+    img {
     width: 100%;
   }
 
-  .company-history-pic-02 {
+  .company-main
+    .company-history
+    .company-history-border
+    .company-history-pic-02 {
     width: 300px;
     top: 685;
   }
 
-  .company-history-pic-02 img {
+  .company-main
+    .company-history
+    .company-history-border
+    .company-history-pic-02
+    img {
     width: 100%;
   }
 
-  .company-history-pic-03 {
+  .company-main
+    .company-history
+    .company-history-border
+    .company-history-pic-03 {
     width: 300px;
     top: 1020;
   }
 
-  .company-history-pic-03 img {
+  .company-main
+    .company-history
+    .company-history-border
+    .company-history-pic-03
+    img {
     width: 100%;
   }
 
-  .company-certif-cont div img {
+  .company-main .company-certif .company-certif-cont div img {
     width: 100%;
   }
 
