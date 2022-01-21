@@ -4819,21 +4819,41 @@ ul.find-tabs-sec li.current {
 }
 
 .company-main .company-history .company-history-border .company-history-01 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  position: absolute;
   top: 128px;
   left: 108px;
 }
 
 .company-main .company-history .company-history-border .company-history-02 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  position: absolute;
   top: 220px;
   left: 108px;
 }
 
 .company-main .company-history .company-history-border .company-history-03 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  position: absolute;
   top: 577px;
   right: 108px;
 }
 
 .company-main .company-history .company-history-border .company-history-04 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  position: absolute;
   top: 911px;
   left: 108px;
 }
@@ -4867,25 +4887,29 @@ ul.find-tabs-sec li.current {
 }
 
 .company-main .company-history .company-history-border .company-history-p-01 {
-  width: 340px;
+  position: absolute;
+  width: 350px;
   top: 176px;
   left: 110px;
 }
 
 .company-main .company-history .company-history-border .company-history-p-02 {
-  width: 540px;
+  position: absolute;
+  width: 550px;
   top: 268px;
   left: 110px;
 }
 
 .company-main .company-history .company-history-border .company-history-p-03 {
-  width: 340px;
+  position: absolute;
+  width: 350px;
   top: 625px;
   right: 110px;
 }
 
 .company-main .company-history .company-history-border .company-history-p-04 {
-  width: 532px;
+  position: absolute;
+  width: 540px;
   top: 959px;
   left: 110px;
 }
