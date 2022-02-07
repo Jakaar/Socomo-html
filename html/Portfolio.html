@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/import.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/TweenMax.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <h1 class="logo"><a href="../main/index.html"><img src="../img/logo.png" alt="SOCOMO"></a></h1>
+        <nav id="gnb">
+            <ul class="gnb_depth1 infit">
+                <li>
+                    <a href="#none">Socomo</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Company</a></li>
+                        <li><a href="#none">Vison</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">Product</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Chair & Sofa</a></li>
+                        <li><a href="#none">Table</a></li>
+                        <li><a href="#none">Bed</a></li>
+                        <li><a href="#none">Light</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">Work</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Portfolio</a></li>
+                        <li><a href="#none">Partners</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">News</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">News</a></li>
+                        <li><a href="#none">Notice</a></li>
+                        <li><a href="#none">Gallery</a></li>
+                        <li><a href="#none">Q&A</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">Contact</a>
+                    <ul class="gnb_depth2">
+                        <li><a href="#none">Contact Us</a></li>
+                        <li><a href="#none">Location</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="gnb_bg"></div>
+        </nav>
+    
+        <div class="header_link infit">
+            <a href="#none" class="link_mypage"><img src="../img/ico_mypage.png" alt="마이페이지 바로가기"></a>
+            <a href="#none" class="link_sch"><img src="../img/ico_head_sch_btn.png" alt="검색아이콘"></a>
+        </div>
+    
+        <a href="javascript:void(0)" class="header_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    
+        <div class="head_sch_wp">
+            <button type="button" class="sch_clo"><img src="../img/ico_close.png" alt="검색창 닫기버튼"></button>
+            <div class="hd_sch">
+                <input type="text" class="hd_sch_ip" placeholder="Enter your keywords...">
+                <button type="button" class="hd_sch_btn"><img src="../img/ico_head_sch_btn2.png" alt="검색버튼"></button>
+            </div>
+        </div>
+    </header>
+    
+    <main class="portfolio-main">
+        <div class="portfolio-title">
+            <h1 class="portfolio-title-h1">Portfolio</h1>
+        </div>
+        <div class="portfolio-location">
+            <h2 class="portfolio-location-h2">Posco tower, Seoul</h2>
+        </div>
+        <div class="portfolio-about-product">
+            <h3 class="portfolio-about-product-h3">Category : Office Facilities</h3>
+            <h3 class="portfolio-about-product-h3">Products : Socomo table lamps</h3>
+        </div>
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <img src="../img/arrow-right.png" alt="">
+            </div>
+            <div class="swiper-button-prev">
+                <img src="../img/arrow-left.png" alt="">
+            </div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/swiper-img.png" />
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-swiper-title">
+            <p class="portfolio-swiper-title-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="portfolio-button">
+            <button class="portfolio-list-button">
+                <a href="">List</a>
+            </button>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="inner">
+            <div class="foot_lft">
+                <div class="foot_cp">
+                    <h2 class="tit">Company</h2>
+                    <p class="txt">
+                        (주)소코모<br>
+                        대표이사 : 소코모 <a href="#none">사업자정보확인</a><br>
+                        서울특별시 강남구 봉은사로 207, 7층 (논현동)<br>
+                        사업자등록번호 : 105-87-47183<br>
+                        통신판매업신고번호 : 제2014-서울강남-00395호
+                    </p>
+                </div>
+                <div class="foot_cs">
+                    <h2 class="tit">Customer</h2>
+                    <p class="foot_tel">1544-9899</p>
+                    <p class="foot_time"><img src="../img/ico_time.png" alt="시계 아이콘">AM 09:30 - PM 18:30</p>
+                    <p class="foot_fax">Fax : 02-6499-1221</p>
+                    <p class="foot_email">E-mail : service@sibizi.com</p>
+                </div>
+            </div>
+            <div class="foot_info infit">
+                <div class="foot_pri">
+                    <a href="#none">이용약관</a>
+                    <a href="#none">개인정보처리방침</a>
+                    <a href="#none">이메일무단수집거부</a>
+                </div>
+                <div class="foot_sns">
+                    <ul class="infit">
+                        <li class="facebook"><a href="#none"></a></li>
+                        <li class="insta"><a href="#none"></a></li>
+                        <li class="youtube"><a href="#none"></a></li>
+                        <li class="kakao"><a href="#none"></a></li>
+                    </ul>
+                </div>
+                <p class="foot_copy">&copy; 2021 Socomo Corp. All rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 4,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 4,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+
+</body>
+</html>

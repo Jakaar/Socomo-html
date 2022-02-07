@@ -4997,3 +4997,210 @@ ul.find-tabs-sec li.current {
 }
 
 /* [e] Company */
+
+/* [s] Portfolio */
+
+.portfolio-main {
+  width: 100%;
+  height: 1930px;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+.portfolio-title {
+  padding-top: 160px;
+}
+
+.portfolio-main .portfolio-title-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  color: #333333;
+}
+
+.portfolio-location {
+  margin-top: 54px;
+}
+
+.portfolio-location .portfolio-location-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #333333;
+}
+
+.portfolio-about-product {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.portfolio-about-product .portfolio-about-product-h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper2 {
+  height: 818.54px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 25.48px;
+}
+
+.mySwiper {
+  height: 121px;
+  box-sizing: border-box;
+}
+
+.mySwiper .swiper-wrapper {
+  gap: 20px;
+}
+
+.mySwiper .swiper-slide {
+  width: 200px !important;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+  background-image: none;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  opacity: 0.4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next img {
+  width: 9px;
+  height: 18px;
+}
+
+.swiper-button-prev {
+  background-image: none;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  opacity: 0.4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev img {
+  width: 9px;
+  height: 18px;
+}
+
+.portfolio-swiper-title {
+  margin-top: 44px;
+  width: 100%;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.portfolio-swiper-title .portfolio-swiper-title-p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.portfolio-button {
+  width: 100%;
+  height: 60px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-button .portfolio-list-button {
+  width: 200px;
+  height: 100%;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+}
+
+.portfolio-button .portfolio-list-button a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  padding: 18px 84px;
+}
+
+/* [e] Portfolio */
